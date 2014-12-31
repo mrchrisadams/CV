@@ -1,159 +1,156 @@
-Sam Pikesley
+Chris Aadams
 ============
 
-11 years a SysAdmin, now doing DevOps. [Chef](https://github.com/AMEE/amee-chef) is my current weapon of choice.
+Polyglot developer and product manager, with keen interest in user research, service design, continuous delivery and devops.
 
 Skills
 ======
 
+Wireframing and Prototypes
+------------------------------
+
+- Omnigraffle Pro
+- Sketch
+
+User research techniques
+-------------------------------
+
+- Wireframing
+- Paper prototyping
+- Personas
+- Guerilla User testing
+- Workshop facilitation
+
 Configuration management
 ------------------------
+
++ Ansible
 + Chef
-    - contributor to [cucumber-chef](https://github.com/Atalanta/cucumber-chef)
-    - creator of [catering-college](https://github.com/pikesley/catering-college)
++ Puppet
 
 Scripting
 ---------
+
 + Ruby
 + Python
-+ bash
++ Javascript
++ bash, zsh and fish shells
 
 Development tools
 -----------------
-+ Git
++ Git & Github
 + Subversion
 + Vagrant
 + Jira
-+ Bamboo
-+ Hudson / Jenkins
+
 
 WWW
 ---
 + nginx
 + Apache
-    - including mod_rewrite
 + thin
-+ PHP scripting
-+ haproxy administration
++ unicorn
++ uwgi
++ gunicorn
 
 OS
 --
-+ Linux (Ubuntu, Debian)
-+ FreeBSD (4, 5, 6, 7)
++ Linux (Ubuntu, Debian, CentOS)
 
 Amazon AWS
 ----------
 + EC2
 + RDS
++ IAM
 + S3 / CloudFront
 
 Databases
 ---------
-+ MySQL (including MMM)
-+ Cassandra
++ PostgresSQL
++ MySQL
 + MongoDB
-
-Network administration
-----------------------
-+ Network topology planning
-+ DNS (BIND 8, 9)
-+ Samba
 
 Monitoring and measurement
 --------------------------
-+ Splunk
+
++ Kissmetrics
++ Intercom
++ Google Analytics
 + ServerDensity
-+ Nagios
-+ Zabbix
++ PaperTrail
++ SentryApp
 
 Backup and recovery
 -------------------
 + Duplicity
-+ Amanda
++ Tarsnap
++ Wal-e
 
 Profile
 =======
 
-June 2011 - present: DevOps Engineer for [AMEE UK Ltd](http://www.amee.com), London
------------------------------------------------------------------------------------
+Jan 2013 – present 2013: Director, Product Science for [Product Science](http://productscience.co.uk), London
+----------------------------------------------------------------------------------------------------------------
 
-AMEE is a start-up whose mission is to measure the carbon footprint of everything on the planet.
+I set up Product Science Ltd to help people build better digital products for solving environmental and social problems.
 
-Working closely with AMEE's relatively small team of Java and Ruby devs, I've been responsible for:
+This tends to range from helping them change how they build their products, to a more iterative process involving smaller, incremental releases, or using user research techniques to get a better idea of who is using their products, how well they are work, and what to change next.
 
-+ Putting in a huge amount of Chef plumbing (running off of [our own Chef server](http://www.amee.com/blog/2012/02/22/building-a-chef-server-from-scratch/)) - AMEE's config management previously consisted of a handful of bash scripts. Any new stuff rolled out since late 2011 has been configuration-managed by Chef, and I expect to have all existing infrastructure in the hands of Chef before the end of 2012
-+ Deploying and configuring Splunk
-+ Migrating several of AMEE's legacy apps from leased iron in a DC to AWS
+When there isn't capacity in-house, my company helps with implementation: either on the user research front, using personas, user testing, and other tools from the UX toolbox, or on the development side, building features using Ruby, Python, HTML, CSS and Javascript.
 
-alongside the usual SysAdmin work of backup-and-restore, capacity planning, etc.
+Finally, we help clients make sure their products don't damage the planet, by helping them run them on servers powered by clean energy.
 
-August 2009 – June 2011: Systems Administrator for [Imagini Ltd](http://www.visualdna.com), London
+This either involves hosting them on our own servers, or helping them set up their products on on their own servers, using the same open source configuration management tools that we use internally.
+
+June 2012 – Jan 2013: Associate Product Manager for [AMEE](http://www.amee.com), London
 --------------------------------------------------------------------------------------------------
 
-Imagini is a dynamic startup based in Soho. The company generates profiles for users through the use of visual quizzes, working with clients including the LA Times, match.com and the Daily Mirror.
+While at AMEE, I moved into product management from engineering, working with the VP of Market Solutions to adopt a more user-focussed approach to how we built our products.
 
-My role at Imagini was pretty much DevOps before I knew that DevOps was even a thing – as a busy startup with diverse client projects there were often multiple deploys per day, meaning I had to work very closely with the developers to make sure we were all on the same page.
+I introduced the use of personas, user stories, and regular user testing, and we moved to working in weekly sprint based workflow. I would collaborate closely with developers, speccing out features and testing new features, as well as, creating mockups and wireframes as needed.
 
-This close working relationship was particularly fruitful during the gradual transfer of many of Imagini’s core services from the legacy platform (a couple of racks of Linux boxes in a London datacentre) to Amazon Web Services. The back-and-forth between myself and the development team was invaluable as we iterated through various combinations of EC2 Instance Types to find the setup that best fitted our requirements.
+We used this updated process in the creation of AMEE Profiles, the new product the company's relied on as part of its new strategic direction.
 
-The transfer to AWS accelerated rapidly during 2011; the setup I left them with included:
+During this time, as part of my professional development I became a Scrum Certified Product Owner.
 
-+ A 16-node Cassandra cluster
-+ A 6-node Hadoop cluster
-+ Several groups of Elastic-Load-Balanced web servers
 
-This platform is still in production use, including an all-new Quiz Engine which as far as I know is still performing extremely well.
-
-During my time at Imagini I also:
-
-+ Completely rewrote the legacy deployment system (in Python), and subsequently repurposed a lot of this code to handle AWS deploy
-+ Introduced the MMM multi-master replication manager for MySQL on the front-end database servers
-+ Cleaned-up and reorganised the Subversion repositories (the better to integrate with my new deploy system)
-+ Managed a migration from Akamai EdgeControl to Amazon Cloudfront
-+ Substantially rewrote the ‘event-tracking and processing’ system
-+ Managed a migration from hosted Exchange email to Google Mail
-
-August 2003 – August 2009: Systems Administrator for [Rex Features Ltd](http://www.rexfeatures.com), London
+September 2011 – June 2012: Developer - Clients and Communities for [AMEE](http://www.amee.com), London
 -----------------------------------------------------------------------------------------------------------
 
-Rex Features is Britain’s leading independent photographic press agency and picture library. Rex supplies a daily service of news, celebrity, features, and stock photos to all national newspapers, magazines, TV, web and other media in the UK and in more than 30 countries worldwide.
 
-My work at Rex covered the usual gamut of Sysadmin tasks, including: backup and recovery, webserver administration, DNS management, plenty of scripting (mostly in bash), patching servers, and writing and maintaining documentation. There was also some SQL Server admin, and a certain amount of desktop support – Rex is a company of ~80 employees, supported by an IT department of four. All new server hardware passed through my hands for installation and configuration.
 
-When I joined Rex, the IT department consisted of two very busy people. The IT infrastructure had been growing rapidly, deployment had happened on a seemingly ad-hoc basis, and documentation was fairly sparse. My initial tasks included:
+I built and maintained a number of Ruby on Rails applications, and software libraries for 3rd party developers to use, as well as providing client support for external organisations using the AMEE platform.
 
-+ Installing a CVS server (yes, this was 2003) and gathering code and scripts into it
-+ Rolling out the Amanda backup system and setting up a proper backup and recovery scheme
-+ Getting the RT ticketing system up and running (we later moved to Jira)
-+ Beginning the process of documenting everything in Twiki (we subsequently migrated to Mediawiki)
+I also travelled around Europe, speaking at conferences and hackathons promoting the company, as well as building example applications for others to use themselves.
 
-Subsequently, I was directly involved in:
+During this time I became very familiar with Greenhouse Gas (GHG) emissions reporting standards, and learned to apply this knowledge in automating the calculation of CO2 emissions of thousands of activities.
 
-+ Setting up the Nagios network monitoring system
-+ Migrating the internal mail from Novell to Exchange, and later outsourcing this function to Cobweb’s hosted Exchange platform
-+ Configuring VPNs between Rex’s headquarters and various locations – initially using isakmpd on OpenBSD, and latterly on a Watchguard Firebox
-+ Overseeing the transfer of Rex’s image data – 5 terabytes of jpegs at the time of writing – from a cluster based on a number of FreeBSD servers to a set of Network Appliance 3050 filers
-+ Configuring and deploying Alteon load-balancers for the Rex website, which gets ~1.5 million hits and shifts ~13 gigs of data a day
-+ Migrating Rex’s code from CVS to Subversion
-+ Specifying and documenting a “standard Rex server install” – except for a handful of Windows servers, the whole of Rex’s server room and colo are running FreeBSD, so the standard install is a set of common ports and a number of scripts.
+Jan 2010 – September 2011: Technical Developer and Systems Administrator for Headshift Ltd, London
+--------------------------------------------------------------------------------------------------
 
-Rex went on to acquire another picture agency in Los Angeles, which brought about a project to integrate their image archive into Rex’s, modifying the server software to enable them to use the Rex client application, and deploying a new set of servers to support of all of this. The final setup consisted of a redundant pair of Microsoft SQL servers, a set of NetApp filers and shelves, and a group of FreeBSD servers (running apache and mod_perl) serving up three websites and a range of internal webservices, all sitting behind a pair of Alteon load-balancers.
+I was initially brought on to help with managing technical infrastructure inside the company, looking after around 40 virtual servers running a mixture of Windows and CentOS/Red Hat Linux systems.
 
-April 2000 – July 2003: Systems Administrator for Empower Interactive Ltd, London
----------------------------------------------------------------------------------
+These ran applications based on Java (including Scala apps like Etherpad), Ruby (Chef, Rails 2.3.x and Rails 3.x ), and MySQL.
 
-Empower Interactive was a telecoms software startup, founded in 2000 in the City of London. The company grew from an initial team of eight to a team of approximately 60 people based all over the globe.
+During this time, I introduced configuration management to the ops team (using Chef) to manage the infrastructure, and moved all of the PHP apps (mainly Wordpress, Drupal and Mediawiki) to a Capistrano based deployment workflow.
 
-Having joined Empower at its inception, my initial responsibilities were to design and implement the IT infrastructure necessary to support the operations of the fledgling business. This included: network planning; server acquisition and installation (various internal servers, external mail server, firewall, etc); deploying a backup and recovery scheme; managing the website; and a great deal of user education. I also got involved in many other aspects of the business – this was a tiny start-up, so I found myself doing testing, writing user manuals for Empower’s products, and even doing a little Java.
+In June 2010, I became responsible for the technical aspects of most new PHP projects, introducing TDD and BDD practices for the first time, as well as overhauling the recruiting process for finding freelancers and full time staff on these projects, to introduce code tests, and pairing.
 
-I was solely responsible for supporting this infrastructure for the first year, until the business expanded to the extent that further IT staff were required. I was asked to set up an IT department, and recruited another Sysadmin who specialised in Windows; the team continued to expand over the following years. I gained experience with Solaris 8, HP-UX and qualified as an Oracle administrator in order to install some of Empower’s products onto carrier-grade hardware; I also assisted with deploying the hardware into telcos.
+From the summer of 2010 onwards, client facing technical consultancy became a larger part of my role: I visited clients in Europe, Australia and the United States, working with their internal development teams to design and implement APIs to integrate their existing systems with new applications we were building for them.
 
-Empower unfortunately ceased trading in November 2006.
+I also began to work as the solutions architect for a number of projects, where I designed, and deployed vertical and horizontally scalable clusters of servers with high availability for MySQL (using Heartbeat/DRBD), using AWS's EC2 and Rackspace's cloud computing products.
+
+
+March 2008 - December 2010: Co-founder at Stemcel Studios, London
+---------------------------------------------------------------------------
+
+Stemcel Studios was a small agency I set up after graduation, to work with early stage startups and social enterprises in the environmental and social sector. Initially worked as a designer and front end developer, with my cofounder specialising in hardware and server-side programming.
+
 
 Education
 =========
 
-B.Sc. (hons) Physics & Computing, Staffordshire University
+B.Sc. (hons) Contemporary Media Practice, University of Westminster
 
 Personal
 ========
@@ -161,16 +158,11 @@ Personal
 Interests
 ---------
 
-+ Music – I currently [play drums in a funk band](http://www.baronfunkenhausen.net)
-+ [Photography](http://www.flickr.com/photos/pikesley/)
-+ [Coding for fun](http://org.orgraphone.org/tag/code/)
-+ Scrabble
-
 Contact details
 ---------------
 
-+ email: [s@m.pikesley.org](mailto:s@m.pikesley.org)
-+ twitter: [@pikesley](http://twitter.com/pikesley)
-+ [linkedin](http://uk.linkedin.com/in/sampikesley)
-+ [github](https://github.com/pikesley/)
-+ telephone: +44 (0) 7979 774183
++ email: [wave@chrisadams.me.uk](mailto:wave@chrisadams.me.uk)
++ twitter: [@mrchrisadams](http://twitter.com/mrchrisadams)
++ [linkedin](http://uk.linkedin.com/in/mrchrisadams)
++ [github](https://github.com/mrchrisadams/)
++ telephone: +44 (0) 7974 368 229
